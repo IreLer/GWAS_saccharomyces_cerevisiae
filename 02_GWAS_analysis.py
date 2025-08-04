@@ -79,7 +79,7 @@ for ph_file in pheno_files:
     if process.returncode != 0:
         print(f"error running PLINK for {pheno_name}.")
 
-print(f"Análisis completado para los {total_ph} fenotipos.")
+print(f"Analysis successfully completef for {total_ph} phenotypes.")
 
 #
 #-------------------------------------------------------------
